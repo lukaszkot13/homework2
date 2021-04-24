@@ -1,0 +1,197 @@
+.nav {
+  height: 35px;
+  background-color: darksalmon;
+  font-size: 10px;
+  color: white;
+}
+
+.menu {
+  display: inline-block;
+  padding-top: 15px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+}
+
+.menu1 {
+  display: inline-block;
+  margin-left: 90%;
+  padding-top: 15px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  cursor: grab;
+}
+
+.menu2 {
+  display: inline-block;
+  padding-top: 15px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  cursor: cell;
+}
+
+.menu:hover {
+  color: lightgrey;
+  cursor: nesw-resize;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+a:hover {
+  color: lightgrey;
+}
+
+.devstock {
+  background-image: url(./motyle.jpg);
+  background-origin: border-box;
+}
+
+.header {
+  text-decoration: none;
+  color: darksalmon;
+  font-size: 50px;
+  padding: 70px 60px;
+}
+.lekcja {
+  background-color: white;
+  height: 600px;
+}
+.lekcja4 {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 900;
+  padding-top: 15px;
+  font-family: system-ui;
+}
+.lekcja5 {
+  text-align: center;
+  font-size: small;
+  padding-top: 15px;
+  letter-spacing: 3px;
+  font-family: system-ui;
+}
+
+.lekcja6 {
+  font-stretch: ultra-expanded;
+  margin: 25px;
+  text-align: center;
+  font-family: system-ui;
+}
+.body {
+  font-family: system-ui;
+}
+
+.box {
+  text-align: center;
+}
+
+.box1 {
+  background-color: linen;
+  padding-top: 5px;
+  height: 140px;
+  width: 450px;
+  display: inline-block;
+  text-align: center;
+  margin: 20px;
+  transform: scale(150%);
+  font-family: system-ui;
+  font-size: small;
+  padding: 10px 10px 10px 10px;
+  transform: scale (101%);
+  cursor: cell;
+}
+.box1:hover {
+  transform: scale(1.1);
+  outline: 5px solid lightslategray;
+}
+.box2 {
+  background-color: linen;
+  padding-top: 5px;
+  height: 140px;
+  width: 450px;
+  display: inline-block;
+  text-align: center;
+  margin: 20px;
+  transform: scale(150%);
+  font-family: system-ui;
+  font-size: small;
+  padding: 10px 10px 10px 10px;
+}
+.box2:hover {
+  transform: scale(1.1);
+  outline: 5px solid lightslategray;
+}
+.box3 {
+  background-color: linen;
+  padding-top: 5px;
+  height: 140px;
+  width: 450px;
+  display: inline-block;
+  text-align: center;
+  margin: 20px;
+  transform: scale(150%);
+  font-family: system-ui;
+  font-size: small;
+  padding: 10px 10px 10px 10px;
+}
+.box3:hover {
+  transform: scale(1.1);
+  outline: 5px solid lightslategray;
+}
+
+.art {
+  font-weight: 700;
+  text-align: center;
+}
+
+.end {
+  background-color: darksalmon;
+  display: inline-block;
+  height: 700px;
+  width: 8000px;
+  font-family: system-ui;
+}
+
+.onas {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.img {
+  text-align: center;
+  display: inline-block;
+  position: relative;
+  top: 100px;
+}
+
+.wyslij {
+  background-color: black;
+  color: white;
+  height: 45px;
+  width: 120px;
+}
+
+.tekst {
+  display: inline-block;
+  position: relative;
+  bottom: 250px;
+  left: 20px;
+}
+
+.tekst1 {
+  display: inline-block;
+  position: relative;
+  left: 800px;
+  bottom: 160px;
+}
+
+.wyslij:hover {
+  transform: scale(10%);
+  cursor: nesw-resize;
+  overflow: hidden;
+}
+
+.log {
+  font-size: 2rem;
+  font-weight: 700;
+}
